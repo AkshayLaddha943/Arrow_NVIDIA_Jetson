@@ -13,7 +13,7 @@ This repository encapsulates the ROS workspace containing the necessary packages
 
 - [Raspi Camera 5MP](https://www.raspberrypi.com/products/camera-module-v2/)
 
-- [Micro-controller(STM32)](https://www.amazon.com/STM32-Nucleo-Development-STM32F446RE-NUCLEO-F446RE/dp/B01I8XLEM8/ref=asc_df_B01I8XLEM8/?tag=hyprod-20&linkCode=df0&hvadid=312363638090&hvpos=&hvnetw=g&hvrand=9282893380648728051&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001847&hvtargid=pla-585245210378&psc=1)
+- [Micro-controller (STM32)](https://www.amazon.com/STM32-Nucleo-Development-STM32F446RE-NUCLEO-F446RE/dp/B01I8XLEM8/ref=asc_df_B01I8XLEM8/?tag=hyprod-20&linkCode=df0&hvadid=312363638090&hvpos=&hvnetw=g&hvrand=9282893380648728051&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001847&hvtargid=pla-585245210378&psc=1)
 
 
 ## Table of Contents
@@ -86,7 +86,6 @@ sudo apt install libcanberra-gtk-module
 Run the facial detection and eye tracking program
 ```
 python3 face_detect.py
-
 ```
 
 you should a similiar output -
