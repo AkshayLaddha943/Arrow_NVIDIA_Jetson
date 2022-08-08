@@ -21,6 +21,7 @@ This repository encapsulates the ROS workspace containing the necessary packages
 * [Setting up NVIDIA Jetson](https://automaticaddison.com/how-to-set-up-the-nvidia-jetson-nano-developer-kit/)
 * [Installing and Verifying relevant packages](https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson#install-and-verify-relevant-packages)
 * [Testing CSI-Camera](https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson#test-csi-camera)
+* [Installing and Inferencing pre-trained models](https://github.com/dusty-nv/jetson-inference)
 
  
  
@@ -89,3 +90,14 @@ python3 face_detect.py
 ```
 
 you should a similiar output
+
+
+
+## Install pre-trained models for Inferencing
+
+The following commands confirm that your camera is succesfully connected to NVIDIA Jetson
+```
+ls /dev/video0
+nvgstcapture-1.0 --orientation=2
+
+```
