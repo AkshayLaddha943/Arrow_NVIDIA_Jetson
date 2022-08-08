@@ -89,7 +89,9 @@ python3 face_detect.py
 
 ```
 
-you should a similiar output
+you should a similiar output -
+
+<img src="https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson/blob/main/face_eye_akshay.png" width="480" alt="opencv_jetson"> 
 
 
 
