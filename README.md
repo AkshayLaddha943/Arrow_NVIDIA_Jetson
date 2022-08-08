@@ -20,6 +20,7 @@ This repository encapsulates the ROS workspace containing the necessary packages
 
 * [Setting up NVIDIA Jetson](https://automaticaddison.com/how-to-set-up-the-nvidia-jetson-nano-developer-kit/)
 * [Installing and Verifying relevant packages](https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson#install-and-verify-relevant-packages)
+* {Testing CSI-Camera](https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson#test-csi-camera)
 
  
  
