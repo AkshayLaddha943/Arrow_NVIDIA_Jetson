@@ -30,7 +30,6 @@ This repository encapsulates the ROS workspace containing the necessary packages
 ```
 sudo apt-get install python3
 sudo apt-get install gedit
-
 ```
 
 Verify if the package has been correctly installed
@@ -40,7 +39,6 @@ which python3
 
 #output should be
 /usr/bin/python3
-
 ```
 In a new terminal,
 
@@ -51,7 +49,6 @@ sudo apt-get install -y python3-pip
 
 #To install any specific package in the future
 pip3 install package_name
-
 ```
  
 ## Test CSI-Camera
@@ -60,7 +57,6 @@ The following commands confirm that your camera is succesfully connected to NVID
 ```
 ls /dev/video0
 nvgstcapture-1.0 --orientation=2
-
 ```
 
 Clone the CSI camera github repository
@@ -71,7 +67,6 @@ git clone https://github.com/JetsonHacksNano/CSI-Camera.git
 cd CSI-Camera
 
 gst-launch-1.0 nvarguscamerasrc sensor_id=0 ! 'video/x-raw(memory:NVMM),width=3280, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=2 ! 'video/x-raw, width=816, height=616' ! nvvidconv ! nvegltransform ! nveglglessink -e
-
 ```
 
 In a new terminal, Install numpy package
@@ -80,7 +75,6 @@ In a new terminal, Install numpy package
 sudo apt-get update
 sudo apt install python3-numpy
 sudo apt install libcanberra-gtk-module
-
 ```
 
 Run the facial detection and eye tracking program
