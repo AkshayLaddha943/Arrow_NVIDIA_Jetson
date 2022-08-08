@@ -21,3 +21,29 @@ This repository encapsulates the ROS workspace containing the necessary packages
 * [Setting up NVIDIA Jetson](https://automaticaddison.com/how-to-set-up-the-nvidia-jetson-nano-developer-kit/)
 
  
+ 
+## Install and Verify relevant packages
+
+```
+sudo apt-get install python3
+sudo apt-get install gedit
+
+```
+Verify if the package has been correctly installed
+
+```
+which python3
+
+#output should be
+/usr/bin/python3
+
+```
+In a new terminal,
+
+```
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get install -y python3-pip
+
+#To install any specific package in the future
+pip3 install package_name
