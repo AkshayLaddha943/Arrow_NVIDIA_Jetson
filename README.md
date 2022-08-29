@@ -22,6 +22,13 @@ This repository encapsulates the ROS workspace containing the necessary packages
 * [Installing and Verifying relevant packages](https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson#install-and-verify-relevant-packages)
 * [Testing CSI-Camera](https://github.com/AkshayLaddha943/Arrow_NVIDIA_Jetson#test-csi-camera)
 * [Installing and Inferencing pre-trained models](https://github.com/dusty-nv/jetson-inference)
+* [Performing Facial recognition and gesture recognition](https://github.com/dusty-nv/jetson-inference)
+* [Pose Tracking](https://github.com/dusty-nv/jetson-inference)
+* [Setting up GPIO for communication protocols](https://github.com/dusty-nv/jetson-inference)
+* [Setting up SPI for Jetson-IO](https://github.com/dusty-nv/jetson-inference)
+* [Integrating an STM32 Micro-controller with NVIDIA Jetson Nano](https://github.com/dusty-nv/jetson-inference)
+* [Reading sensor data](https://github.com/dusty-nv/jetson-inference)
+* [Fusing sensor data from multiple sources](https://github.com/dusty-nv/jetson-inference)
 
  
  
