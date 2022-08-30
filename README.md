@@ -95,7 +95,7 @@ you should a similiar output -
 
 
 
-## Install pre-trained models for Inferencing
+## Install Pre-trained models for Inferencing
 
 The following commands confirm that your camera is succesfully connected to NVIDIA Jetson
 ```
@@ -108,7 +108,6 @@ In order to install the pre-trained models
 ```
 cd jetson-inference/tools
 ./download-models.sh
-
 ```
 
 ### Classifying Images using ImageNet model
@@ -116,12 +115,10 @@ cd jetson-inference/tools
 After downloading and installing the pre-trained models and building the project from source, ensure that the terminal is located
 ```
 cd jetson-inference/build/aarch64/bin
-
 ```
 Next, after navigatingt to the mentioned directory, run the following command -
 ```
 ./imagenet.py images/orange_0.jpg images/test/output_0.jpg
-
 ```
 After running the following command, you should receive a similiar output (the first run will take the TensorRT a few minutes to optimize the network) 
 
