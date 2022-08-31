@@ -122,3 +122,25 @@ Next, after navigatingt to the mentioned directory, run the following command -
 ```
 After running the following command, you should receive a similiar output (the first run will take the TensorRT a few minutes to optimize the network) 
 
+
+
+### Processing a video
+
+The Imagenet model supports and handles video stream processing as well
+Running a video from the disk
+```
+wget https://nvidia.box.com/shared/static/tlswont1jnyu3ix2tbf7utaekpzcx4rc.mkv -O jellyfish.mkv
+./imagenet.py --network=resnet-18 jellyfish.mkv images/test/jellyfish_resnet18.mkv
+```
+
+The following classification video opens up
+
+
+## Performing Facial recognition and Gesture recognition
+
+The following commands install the OpenCV4 library and Tkinter package
+```
+pip3 install opencv-contrib-python
+sudo apt-get install python3-tk
+
+``
