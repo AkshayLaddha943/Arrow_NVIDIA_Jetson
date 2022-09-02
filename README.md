@@ -142,5 +142,21 @@ The following commands install the OpenCV4 library and Tkinter package
 ```
 pip3 install opencv-contrib-python
 sudo apt-get install python3-tk
+```
 
-``
+Install Tensorflow
+```
+sudo apt update
+sudo apt install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 'tensorflow<2'
+```
+
+Install Cuda, CudNN, TensorRT, and TensorFlow for Python
+```
+sudo apt install cmake libopenblas-dev
+```
+
+Download the frozen model from the link 
+https://github.com/apollo-time/facenet/raw/master/model/resnet/facenet.pb
+
+Further convert the .pb model to python file -
